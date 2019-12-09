@@ -22,9 +22,7 @@ docker network create todo-network
 docker-compose up
 ```
 
-4. You can visit the website with the following address:
-
-http://localhost:3000
+4. You can visit the website with the following address: http://localhost:3000
 
 5. You can stop the containers and applications any time with the following command:
 
@@ -32,7 +30,7 @@ http://localhost:3000
 docker-compose down
 ```
 
-NOTE: You can access the APIs of the backend application via "http://localhost:9191"
+NOTE: You can access the APIs of the backend application via http://localhost:9191
 
 
 ### Manually
@@ -57,11 +55,9 @@ java -jar todo-list-0.0.1-SNAPSHOT.jar
 npm start
 ```
 
-7. You can visit the website with the following address:
+7. You can visit the website with the following address: http://localhost:3000
 
-(http://localhost:3000)
-
-NOTE: You can access the APIs of the backend application via "http://localhost:9191"
+NOTE: You can access the APIs of the backend application via http://localhost:9191
 
 
 
@@ -88,9 +84,7 @@ docker network create todo-network
 docker-compose up
 ```
 
-4. Tarayıcınızdan aşağıdaki adrese giderek siteyi ziyaret edebilirsiniz:
-
-(http://localhost:3000)
+4. Tarayıcınızdan aşağıdaki adrese giderek siteyi ziyaret edebilirsiniz: http://localhost:3000
 
 5. Dilediğiniz zaman aşağıdaki komut ile container'ları ve uygulamaları durdurabilirsiniz:
 
@@ -123,9 +117,7 @@ java -jar todo-list-0.0.1-SNAPSHOT.jar
 npm start
 ```
 
-7. Tarayıcınızdan aşağıdaki adrese giderek siteyi ziyaret edebilirsiniz:
+7. Tarayıcınızdan aşağıdaki adrese giderek siteyi ziyaret edebilirsiniz: http://localhost:3000
 
-(http://localhost:3000)
-
-NOT: Backend uygulamasının API'lerine 'http://localhost:9191' üzerinden erişebilirsiniz.
+NOT: Backend uygulamasının API'lerine http://localhost:9191 üzerinden erişebilirsiniz.
 
