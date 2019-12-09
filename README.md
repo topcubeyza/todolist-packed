@@ -1,12 +1,12 @@
 # todolist-zipped
 
-English:
+> English:
 
 This repository contains the frontend and backend applications of TodoList website.
 
 In order to run the applications:
 
->>> With docker-compose
+>> With docker-compose
 
 1. Navigate to the folder containing 'docker-compose.yml' in a commandline window.
 
@@ -29,7 +29,7 @@ docker-compose down
 NOTE: You can access the APIs of the backend application via "http://localhost:9191"
 
 
->>> Manually
+>> Manually
 
 1. Start MySql Server. Set the 'root' user password as 'password'.
 
@@ -56,13 +56,13 @@ NOTE: You can access the APIs of the backend application via "http://localhost:9
 
 
 
-Türkçe:
+> Türkçe:
 
 Bu repository'de TodoList web sitesinin frontend ve backend uygulamaları yer almaktadır.
 
 Uygulamaları çalıştırmak için:
 
->>> docker-compose ile:
+> docker-compose ile:
 
 1. Komut satırında 'docker-compose.yml' dosyasının bulunuğu klasöre gidin.
 
@@ -85,7 +85,7 @@ docker-compose-down
 NOT: Backend uygulamasının API'lerine 'http://localhost:9191' üzerinden erişebilirsiniz.
 
 
->>> Manuel
+>> Manuel
 
 1. MySql Server'ı başlatın. 'root' kullanıcısı şifresini 'password' olarak ayarlayın.
 
