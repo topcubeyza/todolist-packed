@@ -1,4 +1,4 @@
-# TODO LIST APPLICATION
+# Todo List Application
 
 ## English:
 
