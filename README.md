@@ -16,7 +16,7 @@ In order to run the applications:
 docker network create todo-network
 ```
 
-3. Run the following command to start the docker containers and run the applications:
+3. Run the following command to start the docker containers and run the applications (this can take a few minutes):
 
 ```
 docker-compose up
