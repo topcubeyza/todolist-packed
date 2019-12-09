@@ -1,0 +1,18 @@
+export const BASE_URL = "http://localhost:9191/"
+
+export const LOGIN_URL = BASE_URL + "auth/login"
+export const REGISTER_URL = BASE_URL + "auth/register"
+export const LOGOUT_URL = BASE_URL + "auth/logout"
+export const CHECK_LOGGED_IN_URL = BASE_URL + "auth/is-logged-in";
+export const GET_LISTS_URL = BASE_URL + "todolist/get-todo-lists-of-user"
+export const ADD_LIST_URL = BASE_URL + "todolist/create"
+export const DELETE_LIST_URL = BASE_URL + "todolist/delete"
+export const GET_TODO_ITEMS_URL = BASE_URL + "todolist/get-items-of-list"
+export const ADD_TODO_ITEM_URL = BASE_URL + "todoitem/add"
+export const GET_TODO_ITEM_URL = BASE_URL + "todoitem/get"
+export const DELETE_TODO_ITEM_URL = BASE_URL + "todoitem/delete"
+export const UPDATE_TODO_ITEM_URL = BASE_URL + "todoitem/update"
+export const ADD_DEPENDENCY_URL = BASE_URL + "todoitem/add-dependency"
+export const REMOVE_DEPENDENCY_URL = BASE_URL + "todoitem/remove-dependency"
+export const UPDATE_STATUS_URL = BASE_URL + "todoitem/update-status"
+export const FILTER_ORDER_URL = BASE_URL + "filter-order/filter-and-order"

@@ -1,0 +1,53 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+
+  mysql:
+    image: mysql
+    container_name: mysql-service
+    restart: always
+    ports:
+      - 18000:3306
+    networks:
+      - todo-network
+    environment:
+      MYSQL_DATABASE: 'todolistdb'
+      MYSQL_ROOT_PASSWORD: password
+
+
+  todo-be:
+    build:
+      context: "./todo-list"
+      dockerfile: Dockerfile
+    image: todo-be
+    container_name: todo-be-service
+    restart: always
+    depends_on:
+      - "mysql"
+    ports:
+      - 9191:9191
+    networks:
+      - todo-network
+
+  todo-fe:
+    build:
+      context: "./todo-list-web"
+      dockerfile: Dockerfile
+    image: todo-fe
+    container_name: todo-fe-service
+    restart: always
+    networks:
+      - todo-network
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
+
+networks:
+  todo-network:
+    external: true
